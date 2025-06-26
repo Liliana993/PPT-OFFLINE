@@ -1,7 +1,7 @@
 import { state } from "../state/state";
 
 export function initResult() {
-  //? Traemos la info del state y renderizamos
+  //Traemos la info del state y renderizamos
   const data = state.getState();
 
   let classOverlay = "overlay__win";
